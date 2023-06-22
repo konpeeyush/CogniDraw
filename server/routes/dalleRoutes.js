@@ -33,7 +33,7 @@ router.route('/').post(
             res.status(200).json({ photo:image });
         } catch (error) {
             console.log(error);
-            res.status(500).send(error?.response.data.error.message);
+            res.status(500).send(error?.res.data.error.message);
         }
     }
 )
