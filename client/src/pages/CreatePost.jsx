@@ -42,11 +42,11 @@ const CreatePosts = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        if(form.prompt && form.photo){
-            try{
+        if (form.prompt && form.photo) {
+            try {
                 setLoading(true);
-                
-                const response = await fetch('http://localhost:8080/api/v1/post', {
+
+                const response = await fetch('https://cogni-draw-backend.vercel.app/api/v1/post', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -56,14 +56,14 @@ const CreatePosts = () => {
                 await response.json();
                 navigate('/');
             }
-            catch(err){
+            catch (err) {
                 alert(err);
             }
-            finally{
+            finally {
                 setLoading(false);
             }
         }
-        else{
+        else {
             alert('Please enter a prompt and generate an image');
         }
     }
