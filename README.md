@@ -3,16 +3,16 @@
 ### Overview ✅
 
 ``
-The MERN stack web app is designed to generate AI-generated images using the DALL-E API and incorporates Cloudinary for post sharing functionality. This project combines the powerful MERN stack, consisting of MongoDB, Express.js, React.js, and Node.js, with the DALL-E API for generating unique and creative images. Additionally, Cloudinary integration allows users to share their generated images as posts on various social media platforms.
+The MERN stack web app is designed to generate AI-generated images using the DALL-E API and incorporates Cloudinary for post-sharing functionality. This project combines the powerful MERN stack, consisting of MongoDB, Express.js, React.js, and Node.js, with the DALL-E API for generating unique and creative images. Additionally, Cloudinary integration allows users to share their generated images as posts on various social media platforms.
 ``
 
 ### Key Feautes 🔑
 
 1. **Image Generation**: The core functionality of the web app lies in generating AI-generated images using the DALL-E API. Users can input various parameters, such as image descriptions and style preferences, to guide the AI in creating unique images. The DALL-E API processes the request, generating the image based on the provided inputs.
 
-2. **Image Gallery**: The app includes a dedicated image gallery where users can browse and manage their generated images. The gallery provides options to view, download, and delete images, as well as organize them based on tags or categories. Users can also share their images as posts on social media platforms directly from the gallery.
 
-3. **Cloudinary Integration**: The web app integrates Cloudinary, a cloud-based media management platform, for seamless post sharing. Users can select their generated images from the gallery and easily share them as posts on social media platforms, including Facebook, Twitter, Instagram, and more. Cloudinary simplifies the process of uploading, optimizing, and delivering images for social media sharing.
+2. **Cloudinary Integration**: The web app integrates Cloudinary, a cloud-based media management platform, for seamless post-sharing. Users can select their generated images from the gallery and easily share them as posts.
+
 
 ### Aim 🫡
 
