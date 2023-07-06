@@ -8,7 +8,7 @@ const FormField = ({ labelName, type, name, placeholder, value, handleChange, is
                     htmlFor={name}
                     className='block text-sm font-medium text-gray-900'
                 >
-                {labelName}
+                    {labelName}
                 </label>
 
                 {isSurpriseMe && (

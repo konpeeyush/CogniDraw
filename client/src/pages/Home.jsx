@@ -45,7 +45,6 @@ const Home = () => {
 
     const handleSearchChange = (e) => {
         setSearchText(e.target.value);
-
         setSearchTimeout(
             setTimeout(() => {
                 const searchResults = allPosts.filter((item) => item.prompt.toLowerCase().includes(searchText.toLowerCase()) || item.prompt.toLowerCase().includes(searchText.toLowerCase()));

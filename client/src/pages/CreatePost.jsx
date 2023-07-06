@@ -45,7 +45,6 @@ const CreatePosts = () => {
         if (form.prompt && form.photo) {
             try {
                 setLoading(true);
-
                 const response = await fetch('https://cogni-draw-backend.vercel.app/api/v1/post', {
                     method: 'POST',
                     headers: {
