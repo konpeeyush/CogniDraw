@@ -24,6 +24,7 @@ const CreatePosts = () => {
                     },
                     body: JSON.stringify({ prompt: form.prompt }),
                 })
+
                 const data = await response.json()
                 setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` })
             }
@@ -41,7 +42,6 @@ const CreatePosts = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
         if (form.prompt && form.photo) {
             try {
                 setLoading(true);
@@ -96,6 +96,7 @@ const CreatePosts = () => {
                         value={form.name}
                         handleChange={handleChange}
                     />
+                    
                     <FormField
                         labelName="Prompt"
                         type="text"
